@@ -1,0 +1,104 @@
+header{
+  display:flex;
+  background-image: url(https://coverfiles.alphacoders.com/870/87027.png);
+  padding: 100px;
+  p{
+    
+    display: flex;
+    justify-content: center;
+    margin-left: 5rem;
+    // border:green solid 2px;
+    color:#64958F;
+    height:50px;
+    font-size: 30px;
+    padding: 1rem;
+  }
+
+  input{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    // border:red solid 2px;
+    height: 32px ;
+    border-radius: 20px;
+    margin-top: 50px;
+    border: gray 5px solid;
+    background-color: #B6EEFC;
+    color:black;
+    font-size: 30px;
+    width: 8px;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+  }
+  input[type=text]:focus {
+    width: 250px;
+
+  }
+}
+img{
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  border-radius: 50%;
+  margin: 10px;
+  padding:10px;
+}
+main{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 20px;
+  width: 100%;
+  background-color: #faf3dd;
+  // border:yellow solid 2px; 
+
+}
+article{
+  
+  // border:red solid 2px;
+  p{
+    // border:green solid 2px; 
+    display: flex;
+    justify-content: center;
+    margin:2px;
+    padding:2px;
+    color:#065c6f;
+  }
+}
+
+
+h2{
+  background-image: url('https://freepngimg.com/download/rick_and_morty/27617-6-rick-and-morty-clipart.png');
+  border-radius:30% 70% 70% 30% / 30% 30% 70% 70% ;
+    width: 5rem;
+    height: 5rem;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    @keyframes example {
+      0%   {background-color:blue; left:0px; top:0px;}
+      10%  {background-color:red; left:100px; top:0px;}
+      20%  {background-color:purple; left:100px; top:100px;}
+      30%  {background-color:yellow; left:0px; top:100px;}
+      40% {background-color:pink; left:0px; top:0px;}
+      50%   {background-color:brown; left:0px; top:0px;}
+      60%  {background-color:teal; left:100px; top:0px;}
+      70%  {background-color:white; left:100px; top:100px;}
+      80%  {background-color:black; left:0px; top:100px;}
+      90% {background-color:gray; left:0px; top:0px;}
+      100% {background-color:green; left:0px; top:0px;}
+    }
+  }
+.name{
+  color: #ffbb91;
+}
+
+.rm{
+ border-radius: 2px;
+ background-color: #faf3dd;
+}
+
+
+
